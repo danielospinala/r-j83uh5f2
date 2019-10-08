@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
+import Counter from'./Counter.js';
 
 class App extends Component {
+
+  
+
   render() {
     return (
       <div className="container">
-        <textarea rows="3"></textarea>
-        <div className="counter">0</div>
+      <Counter />
+
       </div>
     );
   }
